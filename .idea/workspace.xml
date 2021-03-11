@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1c6c36-dcd8-4368-8217-b045a67cc9d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
+            <state relative-caret-position="1905">
               <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="137" column="6" lean-forward="true" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,6 +64,18 @@
                 <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -119,14 +131,14 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html" />
         <option value="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="158" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="25" />
-    <option name="width" value="1905" />
-    <option name="height" value="964" />
+    <option name="width" value="1920" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,40 +155,6 @@
             <path>
               <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
-              <item name="index_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
-              <item name="index_files" type="462c0819:PsiDirectoryNode" />
-              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
-              <item name="index_files" type="462c0819:PsiDirectoryNode" />
-              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="papers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
-              <item name="index_files" type="462c0819:PsiDirectoryNode" />
-              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="papers" type="462c0819:PsiDirectoryNode" />
-              <item name="AAAI2021" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
-              <item name="index_files" type="462c0819:PsiDirectoryNode" />
-              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="papers" type="462c0819:PsiDirectoryNode" />
-              <item name="CVPR2021" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,18 +207,19 @@
       <updated>1615106048269</updated>
       <workItem from="1615106050020" duration="13574000" />
       <workItem from="1615186351114" duration="1530000" />
-      <workItem from="1615259816756" duration="362000" />
+      <workItem from="1615259816756" duration="2198000" />
+      <workItem from="1615452478633" duration="254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15466000" />
+    <option name="totallyTimeSpent" value="17556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="970" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -254,7 +233,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32912844" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -283,7 +262,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="1905">
           <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#span#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -332,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="137" column="6" lean-forward="true" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -348,6 +327,16 @@
             <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
