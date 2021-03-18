@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1c6c36-dcd8-4368-8217-b045a67cc9d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/news_gif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/news_gif2.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="131" selection-start-line="15" selection-start-column="131" selection-end-line="15" selection-end-column="131" />
+            <state relative-caret-position="334">
+              <caret line="385" column="30" lean-forward="true" selection-start-line="385" selection-start-column="30" selection-end-line="385" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,31 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#!!top" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#td#0;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#td#1;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="155" column="85" selection-start-line="155" selection-start-column="85" selection-end-line="155" selection-end-column="85" />
+            <state relative-caret-position="121">
+              <caret line="241" column="22" lean-forward="true" selection-start-line="240" selection-end-line="243" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -148,6 +127,11 @@
             <path>
               <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
               <item name="index_files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -165,18 +149,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/ICME2021" />
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/WACV2020" />
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/NeuroComputing2020" />
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/ICIP2020" />
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/ICIG2019" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/index_files" />
       <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/TCSVT2020" />
       <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imgs" />
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/ICME2021" />
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/WACV2020" />
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/NeuroComputing2020" />
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/ICIP2020" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,18 +190,18 @@
       <workItem from="1615259816756" duration="2198000" />
       <workItem from="1615452478633" duration="1274000" />
       <workItem from="1615608802021" duration="2224000" />
-      <workItem from="1616052461194" duration="1003000" />
+      <workItem from="1616052461194" duration="1598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21803000" />
+    <option name="totallyTimeSpent" value="22398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2630458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2630458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,7 +215,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38073394" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19839449" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -268,10 +252,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bio.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="171" selection-start-column="171" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="155" column="85" selection-start-line="155" selection-start-column="85" selection-end-line="155" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#td#0;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#td#1;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="241" column="22" lean-forward="true" selection-start-line="240" selection-end-line="243" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#td#0;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#td#1;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="131" selection-start-line="15" selection-start-column="131" selection-end-line="15" selection-end-column="131" />
+        <state relative-caret-position="334">
+          <caret line="385" column="30" lean-forward="true" selection-start-line="385" selection-start-column="30" selection-end-line="385" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -287,55 +320,6 @@
             <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bio.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="171" selection-start-column="171" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#td#0;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#td#1;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="155" column="85" selection-start-line="155" selection-start-column="85" selection-end-line="155" selection-end-column="85" />
-          <folding>
-            <element signature="n#style#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#td#0;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#td#1;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
