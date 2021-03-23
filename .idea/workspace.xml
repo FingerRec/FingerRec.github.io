@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1c6c36-dcd8-4368-8217-b045a67cc9d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/teaser.png" beforeDir="false" afterPath="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/teaser.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="96" column="49" lean-forward="true" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+            <state relative-caret-position="239">
+              <caret line="50" column="178" selection-start-line="50" selection-start-column="178" selection-end-line="50" selection-end-column="178" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="241" column="22" selection-start-line="240" selection-end-line="243" selection-end-column="8" />
+            <state relative-caret-position="1020">
+              <caret line="242" column="30" selection-start-line="242" selection-start-column="30" selection-end-line="242" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -230,18 +228,18 @@
       <workItem from="1616052461194" duration="6357000" />
       <workItem from="1616139919174" duration="2547000" />
       <workItem from="1616204430280" duration="1164000" />
-      <workItem from="1616396745093" duration="97000" />
+      <workItem from="1616396745093" duration="640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30965000" />
+    <option name="totallyTimeSpent" value="31508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27103302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27103302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,7 +253,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25573394" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25573394" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -320,10 +318,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/teaser.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="241" column="22" selection-start-line="240" selection-end-line="243" selection-end-column="8" />
+        <state relative-caret-position="1020">
+          <caret line="242" column="30" selection-start-line="242" selection-start-column="30" selection-end-line="242" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -341,13 +342,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/teaser.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="96" column="49" lean-forward="true" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+        <state relative-caret-position="239">
+          <caret line="50" column="178" selection-start-line="50" selection-start-column="178" selection-end-line="50" selection-end-column="178" />
           <folding>
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
