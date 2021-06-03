@@ -226,7 +226,17 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				Self-supervised learning has shown great potentials in improving the video representation ability of deep neural networks by getting supervision from the data itself. How- ever, some of the current methods tend to cheat from the background, i.e., the prediction is highly dependent on the video background instead of the motion, making the model vulnerable to background changes. To mitigate the model reliance towards the background, we propose to remove the background impact by adding the background. That is, given a video, we randomly select a static frame and add it to every other frames to construct a distracting video sam- ple. Then we force the model to pull the feature of the dis- tracting video and the feature of the original video closer, so that the model is explicitly restricted to resist the back- ground influence, focusing more on the motion changes. We term our method as Background Erasing (BE). It is worth noting that the implementation of our method is so sim- ple and neat and can be added to most of the SOTA meth- ods without much efforts. Specifically, BE brings 16.4% and 19.1% improvements with MoCo on the severely biased datasets UCF101 and HMDB51, and 14.5% improvement on the less biased dataset Diving48.
+				One significant factor we expect the video representation learning to capture, especially in contrast with the image representation learning, is the object motion. However, we found
+				that in the current mainstream video datasets, some action  categories are highly related with the scene where the action happens, making the model tend to degrade to a solution
+				where only the scene information is encoded. For example, a  trained model may predict a video as playing football simply
+				because it sees the field, neglecting that the subject is dancing as a cheerleader on the field. This is against our original
+				intention towards the video representation learning and may  bring scene bias on a different dataset that can not be ignored.
+				In order to tackle this problem, we propose to decouple the scene and the motion (DSM) with two simple operations, so
+				that the model attention towards the motion information is better paid. Specifically, we construct a positive clip and a
+				negative clip for each video. Compared to the original video, the positive/negative is motion-untouched/broken but scenebroken/untouched by Spatial Local Disturbance and Temporal Local Disturbance. Our objective is to pull the positive
+				closer while pushing the negative farther to the original clip in  the latent space. In this way, the impact of the scene is weakened while the temporal sensitivity of the network is further
+				enhanced. We conduct experiments on two tasks with various backbones and different pre-training datasets, and find  that our method surpass the SOTA methods with a remarkable 8.1% and 8.8% improvement towards action recognition
+				task on the UCF101 and HMDB51 datasets respectively using the same backbone.
 			</td>
 		</tr>
 	</table>
@@ -235,7 +245,7 @@
 	<hr>
 	<center><h1>Talk</h1></center>
 	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/aFzno6CQcyE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+		<iframe width="660" height="395" src="-" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
 	</p>
 
 	<table align=center width=800px>
@@ -272,7 +282,7 @@
 		<center>
 			<tr>
 				<td>
-					To explore whether  if the learned model really focus on motion region, we made some attack samples.
+					To explore whether if the learned model really focus on motion region, we made some attack samples.
 				</td>
 			</tr>
 		</center>
@@ -280,7 +290,7 @@
 	<table align=center width=800px>
 		<br>
 		<tr><center>
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/FingerRec/BE'>[GitHub]</a>
+			<span style="font-size:28px">&nbsp;<a href='https://github.com/FingerRec/DSM-decoupling-scene-motion'>[GitHub]</a>
 			</center>
 		</span>
 	</table>
@@ -290,10 +300,10 @@
 		<center><h1>Paper and Supplementary Material</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/first_page.png"/></a></td>
-			<td><span style="font-size:14pt">Jinpeng Wang, Yuting Gao, Ke Li, Yiqi Lin, Andy J. Ma, Hao Cheng, Pai Peng, Rongrong Ji, Xing Sun.<br>
-				<b>Removing the Background by Adding the Background: Towards Background Robust Self-supervised Video Representation Learning.</b><br>
-				In CVPR, 2021.<br>
-				(hosted on <a href="https://arxiv.org/abs/2009.05769">ArXiv</a>)<br>
+			<td><span style="font-size:14pt">Jinpeng Wang, Yuting Gao, Ke Li, Jianguo Hu, Xinyang Jiang, Xiaowei Guo, Rongrong Ji, Xing Sun.<br>
+				<b>Enhancing Unsupervised Video Representation Learning by Decoupling the Scene and the Motion.</b><br>
+				In AAAI, 2021.<br>
+				(hosted on <a href="https://arxiv.org/abs/2009.05757">ArXiv</a>)<br>
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
 				</span>
