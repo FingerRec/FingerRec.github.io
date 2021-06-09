@@ -1,0 +1,6 @@
+@inproceedings{wang2021removing,
+  title={Multi-level Temporal Dilated Dense Prediction for Action Recognition},
+  author={Wang, Jinpeng and Lin, Yiqi and Zhang, Manlin, Gao, Yuan and Ma, Andy J},
+  booktitle={IEEE Transcations on Multi-media},
+  year={2021}
+}

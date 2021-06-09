@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1c6c36-dcd8-4368-8217-b045a67cc9d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021/resources/bibtex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021/resources/mtp_illustration.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1004">
-              <caret line="295" column="12" lean-forward="true" selection-start-line="295" selection-start-column="12" selection-end-line="295" selection-end-column="12" />
+            <state relative-caret-position="203">
+              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
               <folding>
                 <element signature="n#style#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
+            <state relative-caret-position="564">
               <caret line="242" column="30" selection-start-line="242" selection-start-column="30" selection-end-line="242" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#!!top" />
@@ -69,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="152" column="34" lean-forward="true" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="66" />
+            <state relative-caret-position="207">
+              <caret line="51" column="160" selection-start-line="51" selection-start-column="160" selection-end-line="51" selection-end-column="160" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,6 +91,15 @@
                 <element signature="n#style#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021/resources/bibtex.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -121,13 +131,14 @@
         <option value="$PROJECT_DIR$/bio.txt" />
         <option value="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html" />
+        <option value="$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021/resources/bibtex.txt" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
+    <option name="x" value="-9" />
     <option name="y" value="25" />
     <option name="width" value="2025" />
     <option name="height" value="1003" />
@@ -177,14 +188,6 @@
               <item name="index_files" type="462c0819:PsiDirectoryNode" />
               <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
               <item name="papers" type="462c0819:PsiDirectoryNode" />
-              <item name="AAAI2021" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
-              <item name="index_files" type="462c0819:PsiDirectoryNode" />
-              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="papers" type="462c0819:PsiDirectoryNode" />
               <item name="CVPR2021" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,6 +197,31 @@
               <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
               <item name="papers" type="462c0819:PsiDirectoryNode" />
               <item name="CVPR2021" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
+              <item name="index_files" type="462c0819:PsiDirectoryNode" />
+              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="papers" type="462c0819:PsiDirectoryNode" />
+              <item name="TCSVT2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
+              <item name="index_files" type="462c0819:PsiDirectoryNode" />
+              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="papers" type="462c0819:PsiDirectoryNode" />
+              <item name="TMM2021" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Github_博客_2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Github_博客_2021" type="462c0819:PsiDirectoryNode" />
+              <item name="index_files" type="462c0819:PsiDirectoryNode" />
+              <item name="jinpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="papers" type="462c0819:PsiDirectoryNode" />
+              <item name="TMM2021" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,18 +238,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources" />
-      <recent name="$PROJECT_DIR$/imgs" />
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/ICME2021" />
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/WACV2020" />
-      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/NeuroComputing2020" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/index_files" />
       <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/TCSVT2020" />
       <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021/resources" />
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021" />
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources" />
+      <recent name="$PROJECT_DIR$/imgs" />
+      <recent name="$PROJECT_DIR$/index_files/jinpeng/papers/ICME2021" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,15 +293,15 @@
       <workItem from="1617436926852" duration="65000" />
       <workItem from="1618236600928" duration="1510000" />
       <workItem from="1622012366619" duration="3337000" />
-      <workItem from="1622701319787" duration="914000" />
+      <workItem from="1622701319787" duration="3094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43028000" />
+    <option name="totallyTimeSpent" value="45208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="25" width="2025" height="1003" extended-state="0" />
+    <frame x="-9" y="25" width="2025" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28492182" />
@@ -306,13 +335,6 @@
     <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/paper.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/bibtex.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/TBE_ppl.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -336,9 +358,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#td#0;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#td#1;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/resources/bibtex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/TMM2021/resources/bibtex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/CVPR2021/project_website.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
+        <state relative-caret-position="564">
           <caret line="242" column="30" selection-start-line="242" selection-start-column="30" selection-end-line="242" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#!!top" />
@@ -359,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="152" column="34" lean-forward="true" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="66" />
+        <state relative-caret-position="207">
+          <caret line="51" column="160" selection-start-line="51" selection-start-column="160" selection-end-line="51" selection-end-column="160" />
           <folding>
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -376,27 +433,6 @@
             <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#font#0;n#font#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_files/jinpeng/papers/AAAI2021/project_website.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="295" column="12" lean-forward="true" selection-start-line="295" selection-start-column="12" selection-end-line="295" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#td#0;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#td#1;n#tr#0;n#table#1;n#table#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#center#0;n#td#0;n#tr#0;n#table#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#center#0;n#tr#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#td#1;n#tr#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
