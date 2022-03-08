@@ -1,1 +1,1 @@
-Jinpeng Wang is a Master Student at Sun Yat-sen University, with interests in computer vision, deep learning, machine learning. He obtain his BS degree in Sun Yat-sen University in 2017. More information can be found on his webpage: http://fingerrec.github.io/.
+Jinpeng Wang is a PHD Student at NUS, with interests in computer vision, deep learning, machine learning. He obtain his BS&MS degree in Sun Yat-sen University in 2021. More information can be found on his webpage: http://fingerrec.github.io/.

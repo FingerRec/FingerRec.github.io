@@ -1,0 +1,6 @@
+@article{zhang2021suppressing,
+  title={Suppressing Static Visual Cues via Normalizing Flows for Self-Supervised Video Representation Learning},
+  author={Zhang, Manlin and Wang, Jinpeng and Ma, Andy J},
+  journal={arXiv preprint arXiv:2112.03803},
+  year={2021}
+}

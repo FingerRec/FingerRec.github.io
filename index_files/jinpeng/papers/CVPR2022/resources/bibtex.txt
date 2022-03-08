@@ -1,0 +1,6 @@
+@article{wang2021object,
+  title={Object-aware Video-language Pre-training for Retrieval},
+  author={Wang, Alex Jinpeng and Ge, Yixiao and Cai, Guanyu and Yan, Rui and Lin, Xudong and Shan, Ying and Qie, Xiaohu and Shou, Mike Zheng},
+  journal={arXiv preprint arXiv:2112.00656},
+  year={2021}
+}
