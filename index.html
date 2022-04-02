@@ -1,6 +1,70 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" charset="utf-8">
+<title>Jinpeng Wang - PHD, National University of Singaoire </title>
+    <style>
+  body{
+  position:relative;
+  }
+  .img {width: 20px;height: 20px;opacity: 1;position: absolute;z-index: 100000;transition: 2s;}
+  .left,.right {width: 10px;height: 10px;border-radius: 100%;position: absolute;}
+  .right {right: 0;}
+  .under {width: 10px;height: 10px;position: absolute;top: 5px;left: 5px;transform: rotate(45deg)}
+  .text {width: 50px;font-size: 10px;line-height: 1;position: absolute;top: -1em;left: -15px;text-align: center;}
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252" charset="utf-8">
-        <title>Jinpeng Wang - PHD, National University of Singaoire </title>
+ </style>
+
+ </head>
+<body>
+<div class="mydiv"></div>
+</body>
+<script>
+      text = ["Hello", "Hi"];
+      // count
+      var count = 0;
+      // click event
+      document.body.onmousedown = function (e) {
+          // pos
+          var x = event.pageX - 18;
+         var y = event.pageY - 30;
+        // element
+        var img = document.createElement("div");
+         var left = document.createElement("div");
+         var right = document.createElement("div");
+         var under = document.createElement("div");
+         var txt = document.createElement("div");
+         // txt
+        var textNode = document.createTextNode(text[parseInt(Math.random() * text.length)]);
+         // txt
+        txt.appendChild(textNode);
+
+         img.className = "img" + " " + "img" + count;
+         left.className = "left";
+         right.className = "right";
+         under.className = "under";
+        txt.className = "text";
+         img.style.top = y + "px";
+        img.style.left = x + "px";
+        img.appendChild(left);
+         img.appendChild(right);
+        img.appendChild(under);
+       img.appendChild(txt);
+         document.body.appendChild(img);
+         // random color
+         var color = "rgb(" + parseInt(Math.random() * 255) + "," + parseInt(Math.random() * 255) + "," +
+             parseInt(Math.random() * 255) + ")";
+         txt.style.color=color;
+         for (var i = 0; i < 3; i++) {
+             img.children[i].style.background = color;
+        }
+     }
+     document.body.onmouseup = function () {
+         document.getElementsByClassName("img" + count)[0].style.transform = "scale(0.5)";
+         document.getElementsByClassName("img" + count)[0].style.transform = "translateY(-40px)";
+         document.getElementsByClassName("img" + count)[0].style.opacity = "0";
+         count++;
+    }
+ </script>
 <style type="text/css"></style></head>
     <body><table border="0" width="980px" align="center"><tbody><tr><td>
     
