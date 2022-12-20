@@ -1,0 +1,6 @@
+@article{wang2022ptp,
+  title={Position-guided Text Prompt for Vision Language Pre-training},
+  author={Wang, Alex Jinpeng and Zhou, Pan and Shou, Mike Zheng and Yan, Shui Cheng},
+  journal={arXiv preprint arXiv:2212.09737},
+  year={2022}
+}
