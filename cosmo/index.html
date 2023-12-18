@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CosMo</title>
+  
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://fingerrec.github.io/cosmo",
+      "@type": "Architecture",
+      "name": "CosMo",
+      "description": "CosMo is a strong vision-language pre-training framework.",
+      "url": "https://fingerrec.github.io/cosmo"
+    }
+  </script>
+
+  <!-- External Libraries and Stylesheets -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.1/css/OverlayScrollbars.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- External Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+
+  <link rel="stylesheet" href="mobile/mobile_styles.css">
+  <script src="mobile/mobile_scripts.js"></script>
+</head>
+
+
+<body>
+  <div id="loading-screen">
+    <div class="header-top-screen">
+        <div class="logo-screen">Loading</div>
+    </div>
+    <div class="loading-bar-outline">
+        <div class="loading-bar"></div>
+    </div>
+      <!-- Footer section -->
+    <div class="footer">
+        <p>This website is adapted from <a href="https://egoschema.github.io/">EgoSchema</a>.</p>
+    </div>
+  </div>
+
+  <div id="content">
+    <!-- Navbar Section -->
+    <header class="header">
+      <div class="header-top">
+        <div class="logo">CosMo</div>
+      </div>
+
+      <div class="header-top-name">
+        For Interleaved Vision-language Pre-training
+      </div>
+
+      <div class="team-names">
+        <div class="names">
+          <span class="first-names">Alex Jinpeng Wang</span>
+        </div>
+        <div class="names">
+          <span class="first-names">Linjie Li</span>
+        </div>
+        <div class="names">
+          <span class="first-names">Kevin Qinhong Lin</span>
+        </div>
+        <div class="names">
+          <span class="first-names">Jianfeng Wang</span>
+        </div>
+        <div class="names">
+          <span class="first-names">Kevin Lin</span>
+        </div>
+        <div class="names">
+          <span class="first-names">Zhengyuan Yang</span>
+        </div>
+        <div class="names">
+          <span class="first-names">Lijuan Wang</span>
+        </div>
+        <div class="names">
+          <span class="first-names">Mike Zheng Shou</span>
+        </div>
+      </div>
+
+      <nav id="navigation">
+        <div class="navigation_div" id="paper_nav">
+            <a href="#paper" class="navigation_div" id="paper_nav">Paper</a>
+        </div>
+        <div class="navigation_div" id="team_nav">
+            <a href="#team">Team</a>
+        </div>
+        <div class="navigation_div" id="explore_nav">
+            <a href="#explore">Models</a>
+        </div>
+        <div class="navigation_div" id="download_nav">
+            <a href="#download">Dataset</a>
+        </div>
+        <div class="navigation_div" id="stat_nav">
+            <a href="#stats">Ack.</a>
+        </div>
+        <div class="navigation_div" id="git_nav">
+            <a href="https://fingerrec.github.io">Github</a>
+        </div>
+      </nav>
+
+      <div class="logo-container">
+        <img src="header_section/logos/nus.png" alt="NUS logo" class="nus-logo">
+        <img src="header_section/logos/microsoft.png" alt="Microsoft logo" class="microsoft-logo">
+        <img src="header_section/logos/showlab.png" alt="ShowLab logo" class="showlab-logo">
+      </div>
+      
+      <div class="please-scroll">
+        <div id="ellipse"></div>
+        <span id="reminder">Please scroll down to continue</span>
+      </div>
+    </header>
+
+    <nav id="navigation-left">
+      <div class="navigation_div" id="paper_nav">
+          <a href="#paper" class="navigation_div">Paper</a>
+      </div>
+      <div class="navigation_div" id="team_nav">
+          <a href="#team">Team</a>
+      </div>
+      <div class="navigation_div" id="explore_nav">
+          <a href="#explore">Models</a>
+      </div>
+      <div class="navigation_div" id="download_nav">
+          <a href="#download">Dataset</a>
+      </div>
+      <div class="navigation_div" id="stats_nav">
+          <a href="#stats">Ack.</a>
+      </div>
+    </nav>
+
+    <!-- Paper Section -->
+    <section id="paper">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/xxxxxxxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="intro_video"></iframe>
+      </div>
+
+      <div id="paper_intro">
+        <span id="paper_text">We introduce CosMo, a Interleaved Pre-training framework with contrastive loss.</span></span>
+      </div>
+
+      <div id="paper_list">
+        <div id="screenshot_intro">
+          <span id="screenshot_text"><a href="https://arxiv.org/pdf/2308.09126.pdf">Paper</a></span>
+        </div>
+  
+        <div id="paper_screenshots">
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page1"><img src="paper_section/paper/page1.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page2"><img src="paper_section/paper/page2.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page3"><img src="paper_section/paper/page3.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page4"><img src="paper_section/paper/page4.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page5"><img src="paper_section/paper/page5.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page6"><img src="paper_section/paper/page6.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page7"><img src="paper_section/paper/page7.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page8"><img src="paper_section/paper/page8.jpg"></a>
+          <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page9"><img src="paper_section/paper/page9.jpg"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download">
+      <div class="download_part" id="video_instructions">
+        <p class="download_intro">Download script</p>
+        <span class="download_description">You can download the dataset by running the script at the <a href="https://github.com/egoschema/EgoSchema.git">following link</a>.<span>
+      </div>
+
+      <div class="download_part" id="drive_instructions">
+        <p class="download_intro">Direct download</p>
+        <span class="download_description">Folder with all videos is also hosted in <a href="https://drive.google.com/drive/folders/1SS0VVz8rML1e5gWq7D7VtP1oxE2UtmhQ?usp=sharing">google drive</a>.<span>
+      </div>
+
+      <div class="download_part" id="ego4d_instructions">
+        <p class="download_intro">Ego4D metadata</p>
+        <span class="download_description">The file that connect EgoSchema questions to Ego4D original metadata can be found <a href="https://github.com/egoschema/EgoSchema.git">here</a>.<span> (in development)
+      </div>
+
+      <div class="download_part" id="bench_instructions">
+        <p class="download_intro">Benchmarking code</p>
+        <span class="download_description">Comprehensive guides and setup procedures for benchmarking models from the paper can be found <a href="https://github.com/egoschema/EgoSchema/tree/main/benchmarking">here</a>.<span>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section_div">
+      <div class="profile" id="alex">
+        <img class="portrait" src="team_section/team/alex_wang.jpg">
+        <span class="name"><a href="https://fingerrec.github.io/">Alex Jinpeng Wang</a></span>
+        <span class="status">PhD Student</span>
+        <span class="organization">NUS</span>
+      </div>
+
+      <div class="profile" id="linjie">
+        <img class="portrait" src="team_section/team/linjie.jpg">
+        <span class="name"><a href="https://www.microsoft.com/en-us/research/people/linjli/">Linjie Li</a></span>
+        <span class="status">Research Scientist</span>
+        <span class="organization">Microsoft</span>
+      </div>
+
+      <div class="profile" id="qinhong">
+        <img class="portrait" src="team_section/team/qinhong.jpeg">
+        <span class="name"><a href="https://qinghonglin.github.io">Kevin Qinhong Lin</a></span>
+        <span class="status">PHD Student</span>
+        <span class="organization">NUS</span>
+      </div>
+
+      <div class="profile" id="jianfeng">
+        <img class="portrait" src="team_section/team/jianfeng.jpg">
+        <span class="name"><a href="http://jianfengwang.me">Jianfeng Wang</a></span>
+        <span class="status">Research Scientist</span>
+        <span class="organization">Microsoft</span>
+      </div>
+
+      <div class="profile" id="kevin">
+        <img class="portrait" src="team_section/team/kevin.jpg">
+        <span class="name"><a href="https://sites.google.com/site/kevinlin311tw/me">Kevin Lin</a></span>
+        <span class="status">Research Scientist</span>
+        <span class="organization">Microsoft</span>
+      </div>
+
+      <div class="profile" id="zhengyuan">
+        <img class="portrait" src="team_section/team/zhengyuan.jpg">
+        <span class="name"><a href="https://zyang-ur.github.io">Zhengyuan Yang</a></span>
+        <span class="status">Research Scientist</span>
+        <span class="organization">Microsoft</span>
+      </div>
+
+      <div class="profile" id="lijuan">
+        <img class="portrait" src="team_section/team/lijuan.jpeg">
+        <span class="name"><a href="https://scholar.google.com/citations?user=cDcWXuIAAAAJ&hl=zh-CN">Lijuan Wang</a></span>
+        <span class="status">Research Scientist</span>
+        <span class="organization">Microsoft</span>
+      </div>
+
+      <div class="profile" id="mike">
+        <img class="portrait" src="team_section/team/mike.jpg">
+        <span class="name"><a href="https://cde.nus.edu.sg/ece/staff/shou-zheng-mike/">Mike Zheng Shou</a></span>
+        <span class="status">Assitant Professor</span>
+        <span class="organization">NUS</span>
+      </div>
+
+    </section>
+
+    <!-- Explore Section -->
+    <section id="explore">
+      <!-- <iframe src="explore_section/plot.html" class="plot" frameBorder="0"></iframe> -->
+      We released three different models.
+
+      <table border="1">
+        <tr>
+            <td>CosMo2.1B</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+            <td>Row 1, Cell 4</td>
+        </tr>
+        <tr>
+            <td>CosMo3.4B</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+            <td>Row 2, Cell 4</td>
+        </tr>
+        <tr>
+            <td>CosMo8.1B</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+            <td>Row 3, Cell 4</td>
+        </tr>
+      </table>
+
+    In addition, we try to scale up the model to 7x8B models.
+    And we show the result below.
+    </section>
+
+    <section id="stats">
+      <iframe src="" class="stats_plot" id="stats_id" frameBorder="0"></iframe>
+    </section>
+    
+
+    <!--
+    <section id="stats">
+      <div class='tableauPlaceholder' id='viz1689049851085' style='position: relative'>
+        <noscript>
+          <a href='https:&#47;&#47;egoschema.github.io&#47;'>
+            <img alt='EgoSchema Statistics ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Eg&#47;EgoSchema&#47;EGOSchema&#47;1_rss.png' style='border: none' />
+          </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' /> 
+          <param name='site_root' value='' />
+          <param name='name' value='EgoSchema&#47;EGOSchema' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Eg&#47;EgoSchema&#47;EGOSchema&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+        </object>
+      </div>                
+      <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1689049851085');
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='70vw';
+        vizElement.style.height='80vh';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+      </script>
+    </section>
+  </div>
+  -->
+  
+  <!-- Scroll to Top Button -->
+  <div id="goToTop">&#8679;</div>
+
+</body>
+
+</html>

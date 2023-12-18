@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GSAP Animation Loading</title>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  
+  <style>
+    #loading-screen {
+      position: fixed;
+      top: 0; 
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      z-index: 999;
+      display: none;
+    }
+    
+    #loading-bar {
+      height: 5px;
+      background: #333;
+      width: 0%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="loading-screen">
+    <div id="loading-bar"></div>
+  </div>
+  
+  <script>
+    // GSAP Animation 
+
+    const mainTimeline = gsap.timeline();
+
+    // Add animations
+    
+    // Show loading
+    const loadScreen = document.getElementById('loading-screen');
+    loadScreen.style.display = 'block';
+    
+    // Reset and play timeline
+    mainTimeline.progress(0);
+    mainTimeline.play();
+    
+    // Animate load bar
+    const loadBar = document.getElementById('loading-bar'); 
+    gsap.to(loadBar, {
+      duration: 2,
+      width: '100%', 
+      ease: 'power1.inOut',
+      onComplete: function(){
+        loadScreen.style.display = 'none';
+        mainTimeline.resume(); 
+      }
+    });
+  </script>
+
+</body>
+</html>
