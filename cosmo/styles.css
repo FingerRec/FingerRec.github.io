@@ -360,8 +360,8 @@ section {
 }
 
 #intro_video {
-  width: 12.5vw;
-  height: 7vw;
+  width: 11.5vw;
+  height: 6vw;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 
@@ -376,6 +376,25 @@ section {
 
   width: 30vw;
   height: 21vw;
+}
+
+#paper_link {
+  font-size: 1.25vw;
+  color:aqua;
+  position: absolute;
+
+  top: 33vh;
+  left: 40vw;
+}
+
+#paper_link a {
+  color: #00b4d8; /* Replace #yourDesiredColor with the hex code of the color you want */
+  text-decoration: underline; /* Optional: removes the underline from the links */
+}
+
+#paper_link a:hover {
+  color: #00b4d8; /* Color of the link when the mouse hovers over it */
+  text-decoration: underline; /* Optional: removes the underline from the links */
 }
 
 #paper_text {
@@ -414,6 +433,20 @@ section {
 
 #screenshot_text a:hover {
   color: var(--accent-color);
+}
+
+
+#paper_arxiv {
+  font-weight: bold;
+  font-size: 2em;
+  /* border-bottom: 1px solid white; */
+}
+
+
+#paper_github {
+  font-weight: bold;
+  font-size: 2em;
+  /* border-bottom: 1px solid white; */
 }
 
 
@@ -458,7 +491,7 @@ section {
 
 #download  p {
   font-weight: 600;
-  font-size: 270%;
+  font-size: 170%;
   margin: 0;
 }
 
@@ -606,7 +639,7 @@ section {
   padding-bottom: 1.5em;
 }
 
-#stats {
+/* #stats {
   width: 1600px;
   height: 90vh;
   display: flex;
@@ -617,7 +650,7 @@ section {
   height: 90vh;
 
   transform-origin: top left;
-}
+} */
 
 /* Scroll to Top Button Styling */
 #goToTop {
@@ -669,4 +702,9 @@ section {
   background-color: #090303;
   text-align: center;
   padding: 10px 0;
+}
+
+p {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }

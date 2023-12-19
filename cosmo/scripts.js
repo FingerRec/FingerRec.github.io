@@ -157,6 +157,24 @@ $(document).ready(function() {
 
       tl.staggerTo(text.children, 0.05, {opacity: 1}, 0.005);
 
+
+      // Get the paper link element
+      const paperLink = document.getElementById('paper_link');
+      const links = paperLink.querySelectorAll('a');
+
+      // Set initial opacity for links to 0
+      links.forEach(link => {
+          link.style.opacity = 0;
+      });
+
+      // Animate each link to fade in
+      links.forEach(link => {
+          tl.to(link, {
+              opacity: 1,
+              duration: 0.5
+          }, startTime);
+      });
+
       tl.to('#intro_video', {
         opacity: 1,
         duration: 1
@@ -185,6 +203,7 @@ $(document).ready(function() {
         opacity: 0.5,
         duration: 1
       }, startTime);
+      
 
       for (let i = 1; i <= 9; i++) {
         tl.to('#page' + i, {

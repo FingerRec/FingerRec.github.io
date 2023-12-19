@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CosMo</title>
-  
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
     {
@@ -16,6 +15,9 @@
       "url": "https://fingerrec.github.io/cosmo"
     }
   </script>
+
+  <link rel="icon" href="./figures/cosmo_logo.png">
+
 
   <!-- External Libraries and Stylesheets -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.1/css/OverlayScrollbars.min.css" rel="stylesheet">
@@ -142,16 +144,27 @@
     <!-- Paper Section -->
     <section id="paper">
       <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/xxxxxxxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="intro_video"></iframe>
+        <!-- <iframe src="https://www.youtube.com/embed/xxxxxxxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="intro_video"></iframe> -->
+        <!-- <iframe src="figures/framework.png" title="CosMo Framework" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen id="intro_video" 
+        style="width: 800px; height: 600px;"></iframe> -->
+        <img src="figures/framework.png" alt="CosMo Framework" id="intro_video" style="width: 100%; height: auto;">
+
       </div>
 
       <div id="paper_intro">
-        <span id="paper_text">We introduce CosMo, a Interleaved Pre-training framework with contrastive loss.</span></span>
+        <span id="paper_text">In the evolution of Vision-Language Pre-training, shifting from short-text comprehension to encompassing extended textual contexts is pivotal. We introduce the contrastive loss into text generation models, presenting the COntrastive-Streamlined MultimOdal framework (CosMo), strategically partitioning the language model into dedicated unimodal text processing and adept multimodal data handling components. </span></span>
+      </div>
+
+      <div id="paper_link">
+        <span id="paper_github"><a href="https://github.com/FingerRec/cosmo">Github</a></span>
+        <span id="paper_arxiv"><a href="https://arxiv.org/pdf/xxxx.pdf">Arxiv</a></span>
       </div>
 
       <div id="paper_list">
         <div id="screenshot_intro">
-          <span id="screenshot_text"><a href="https://arxiv.org/pdf/2308.09126.pdf">Paper</a></span>
+          <span id="screenshot_text"><a href="https://arxiv.org/pdf/xxxx.pdf">Paper</a></span>
         </div>
   
         <div id="paper_screenshots">
@@ -166,28 +179,24 @@
           <a href="https://arxiv.org/pdf/2308.09126.pdf" id="page9"><img src="paper_section/paper/page9.jpg"></a>
         </div>
       </div>
+
     </section>
 
-    <!-- Download Section -->
+    <!-- Dataset Section -->
     <section id="download">
-      <div class="download_part" id="video_instructions">
-        <p class="download_intro">Download script</p>
-        <span class="download_description">You can download the dataset by running the script at the <a href="https://github.com/egoschema/EgoSchema.git">following link</a>.<span>
-      </div>
-
       <div class="download_part" id="drive_instructions">
-        <p class="download_intro">Direct download</p>
-        <span class="download_description">Folder with all videos is also hosted in <a href="https://drive.google.com/drive/folders/1SS0VVz8rML1e5gWq7D7VtP1oxE2UtmhQ?usp=sharing">google drive</a>.<span>
+        <p class="download_intro">Dataset Download. </p>
+        <span class="download_description">Download data directly from <a href=""> Huggingface ListView. </a> .<span>
       </div>
 
       <div class="download_part" id="ego4d_instructions">
-        <p class="download_intro">Ego4D metadata</p>
-        <span class="download_description">The file that connect EgoSchema questions to Ego4D original metadata can be found <a href="https://github.com/egoschema/EgoSchema.git">here</a>.<span> (in development)
+        <p class="download_intro">HowTo100M source video download. </p>
+        <span class="download_description">The source video can be found <a href="https://www.di.ens.fr/willow/research/howto100m/">here</a>.<span>
       </div>
 
       <div class="download_part" id="bench_instructions">
-        <p class="download_intro">Benchmarking code</p>
-        <span class="download_description">Comprehensive guides and setup procedures for benchmarking models from the paper can be found <a href="https://github.com/egoschema/EgoSchema/tree/main/benchmarking">here</a>.<span>
+        <p class="download_intro">Dataset Statics.</p>
+        <span class="download_description">More details about dataset statics can be found at <a href="https://github.com/">here</a>.<span>
       </div>
     </section>
 
@@ -254,35 +263,85 @@
     <!-- Explore Section -->
     <section id="explore">
       <!-- <iframe src="explore_section/plot.html" class="plot" frameBorder="0"></iframe> -->
-      We released three different models.
-
-      <table border="1">
-        <tr>
-            <td>CosMo2.1B</td>
-            <td>Row 1, Cell 2</td>
-            <td>Row 1, Cell 3</td>
-            <td>Row 1, Cell 4</td>
-        </tr>
-        <tr>
+      <div class="pretrained_model" id="pretrained_model">
+        <h1>Model Card</h1>
+        <table border="1">
+          <tr>
+              <td>Method</td>
+              <td>Language Model</td>
+              <td>Vision Model </td>
+              <td>Samples</td>
+              <td>Model Weight</td>
+          </tr>
+          <tr>
+              <td>CosMo2.1B</td>
+              <td>OPT-IML1.8B</td>
+              <td>130M</td>
+              <td>VIT-L</td>
+              <td><a href="https://huggingface.co/Awiny/cosmo2.1b/tree/main">Pretrained Weight</a> </td>
+          </tr>
+          <tr>
             <td>CosMo3.4B</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-            <td>Row 2, Cell 4</td>
-        </tr>
-        <tr>
+            <td>RedPajama-3B</td>
+            <td>180M</td>
+            <td>VIT-L</td>
+            <td><a href="https://huggingface.co/Awiny/cosmo3.4b/tree/main">Pretrained Weight</a> </td>
+          </tr>
+          <tr>
             <td>CosMo8.1B</td>
-            <td>Row 3, Cell 2</td>
-            <td>Row 3, Cell 3</td>
-            <td>Row 3, Cell 4</td>
-        </tr>
-      </table>
-
-    In addition, we try to scale up the model to 7x8B models.
-    And we show the result below.
+            <td>Mistral7B</td>
+            <td>180M</td>
+            <td>VIT-L</td>
+            <td><a href="https://huggingface.co/Awiny/cosmo8.1b/tree/main">Pretrained Weight</a> </td>
+          </tr>
+        </table>  
+      </div>
+      <h1>Model Explorison</h1>
+        Our codebase also support training following models on A100 GPUS:
+        <table border="1">
+          <tr>
+            <td>Language Model</td>
+            <td>Size</td>
+            <td>Batch Size</td>
+            <td>GPU Memory</td>
+          </tr>
+          <tr>
+            <td>Vicuna</td>
+            <td>7B</td>
+            <td>196</td>
+            <td>70G</td>
+          </tr>
+          <tr>
+            <td>LLaMA</td>
+            <td>7B</td>
+            <td>196</td>
+            <td>70G</td>
+          </tr>
+          <tr>
+            <td>Mixtral7x8b</td>
+            <td>42B</td>
+            <td>32</td>
+            <td>80G</td>
+          </tr>
+        </table>
+        <!-- <p>In addition, we try to scale up the model to 7x8B models. And we show the results below. </p> -->
     </section>
 
     <section id="stats">
+      <h1>Acknowledgement</h1>
+      <p style="margin-top: 20px; margin-bottom: 20px;">This work is mainly based on: </p>
+      <p style="margin-top: 10px; margin-bottom: 10px;">-<a href="https://webdataset.github.io/webdataset">WebDataset</a></p>
+      <p style="margin-top: 10px; margin-bottom: 10px;">-<a href="https://github.com/allenai/mmc4">MMC4</a></p>
+      <p style="margin-top: 10px; margin-bottom: 10px;">-<a href="https://github.com/mlfoundations/open_flamingo">Open-Flamingo</a> </p>
+      <p style="margin-top: 10px; margin-bottom: 10px;">-<a href="https://github.com/mlfoundations/open_clip">Open-Clip</a></p>
+
+      <h1>Others</h1>
+      <p style="margin-top: 20px; margin-bottom: 20px;">We thanks: </p>
+      <p style="margin-top: 10px; margin-bottom: 10px;"> Ziteng Gao for discussing the training stability of Multi-Node. </p>
+      <p style="margin-top: 10px; margin-bottom: 10px;"> Henry Zhao for his insights on the design of the lightweight cross-attention model. </p>
+
       <iframe src="" class="stats_plot" id="stats_id" frameBorder="0"></iframe>
+
     </section>
     
 
