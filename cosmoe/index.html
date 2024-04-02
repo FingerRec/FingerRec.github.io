@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="COSMOE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COSMOE</title>
+
+  <!-- Bootstrap -->
+  <link href="static/css/bootstrap-4.4.1.css" rel="stylesheet">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./assets/parrot.jpg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title" style="margin-bottom: 0"><img src="./assets/cosmo_logo_2.png" width="80" class="center"><strong>COS-MOE: COntrastive Streamlined multimodal model with Mixture Of Experts</strong></h1>
+          <!-- <h1 class="title is-2" style="margin-bottom: 0;color: red"><strong>CLIP Score is Innately Flawed !!!</strong></h1> -->
+
+          <div class="column is-full_width">
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://fingerrec.github.io/">Wang, Alex Jinpeng</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href=""> Li, Linjie </a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="">Lin, Kevin Qinghong </a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span> 
+            <span class="author-block">
+              <a href="">Wang, Jianfeng </a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="">Lin, Kevin</a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="">Wang, Jianfeng </a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="">Wang, Lijuan  </a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=zh-CN">Mike Zheng Shou</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>National University of Singapore</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>Microsoft</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.00849"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/showlab/cosmo"
+                   class="external-link button is-normal is-rounded is-dark disabled">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                  </a>
+              </span>
+
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Highlights -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="margin-top: -30px">TL;DR</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li style="font-size:16px">A <b> Clean </b>Multi-modality Model with Mixture Of Experts (MOE) as LLM.</li>
+            <li style="font-size:16px">Trained on billions-level data include image-text pair, video-text pair, interleaved image-text pair and interleaved video-text pair.</li>
+            <li style="font-size:16px">Support interleaved inference.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3  has-text-centered" style="margin-top: -20px">Overview</h2>
+
+        <img src="./assets/cos_moe.png" class="center">
+
+        <h2 class="subtitle" style="margin-top: 15px; font-size: 17px">
+          <li>CosMoE have 12 billion active parameters (47 bliion vailable params in total). </li>
+        </h2>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -20px">Training COSMOE.</h2>
+
+        <div class="columns is-centered" style="display: flex; justify-content: center;">
+          <div class="column is-full-width" style="display: flex; justify-content: center;">
+            <img src="./assets/train_curve.png" style="width: 70%; margin: auto;">
+          </div>
+        </div>
+        
+
+        <h2 class="subtitle" style="margin-top: 15px; font-size: 17px">
+          <li> COSMOE-56B demonstrates superior convergence over CosMo-8B, particularly evident in the Interleaved Image Text loss metric. </li>
+        </h2>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -20px"> Experiments </h2>
+        <div class="content has-text-justified">
+          <table>
+            <tr>
+              <td>Method</td>
+              <td>VQA V2</td> 
+              <td>OK-VQA</td>
+              <td>VizWiZ</td>
+              <td>HatefulMems</td>
+            </tr>
+            <tr>
+              <td>COSMOE-8B PT</td>
+              <td>47.2</td> 
+              <td>32.7</td>
+              <td>22.5</td>
+              <td>57.1</td>
+            </tr>
+            <tr>
+              <td>COSMOE-8x7b PT</td>
+              <td>49.5</td> 
+              <td>42.2</td>
+              <td>21.6</td>
+              <td>63.5</td>
+            </tr>
+            <tr>
+              <td>COSMOE-8x7b SFT</td>
+              <td>53.4</td> 
+              <td>38.5</td>
+              <td>30.4</td>
+              <td>64.2</td>
+            </tr>
+            <tr>
+              <td>IDEFICS-80B SFT</td>
+              <td>37.4</td> 
+              <td>36.9</td>
+              <td>26.2</td>
+              <td>58.9</td>
+            </tr>
+          </table>
+        </h2>
+      </div>
+
+      <li>1B pretrain data come from MMC4, OBELICS, DataComp. </li>
+
+      <li>Our pre-train data <b>do not include downstream datasets like CoCo, SAM, OK-VQA.</b> </li>
+      
+      <li>For supervised fune-tuning, we follow IDELICS for a fair comparison.</li> 
+      
+    </div>
+
+
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title" style="margin-top: -60px">BibTeX</h2>
+    <pre>
+      <code>
+        @article{wang2024cosmo,
+          title={COSMO: Contrastive Streamlined Multimodal Model with Interleaved Pre-Training},
+          author={Wang, Alex Jinpeng and Li, Linjie and Lin, Kevin Qinghong and Wang Jianfeng and Lin, Kevin and Yang, Zhengyuan  and Wang, Lijuan and Shou, Mike Zheng},
+          journal={arXiv preprint arXiv:2401.00849},
+          year={2024}
+        }
+
+      </code></pre>
+  </div>
+</section>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td>
+      <br>
+      <p align="center">
+        <font size="2">
+          <a href="https://github.com/nerfies/nerfies.github.io">
+            <font size="2" color="lightgray">awesome webpage template</font>
+          </a>
+          <br>
+        </font>
+      </p>
+      <br>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
