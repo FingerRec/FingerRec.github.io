@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="LongTextAR">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LongTextAR</title>
+
+  <!-- Bootstrap -->
+  <link href="static/css/bootstrap-4.4.1.css" rel="stylesheet">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./assets/parrot.jpg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+</head>
+<body style="width: 100%;">
+
+<section class="hero" style="width: 100%;">
+  <div class="hero-body" style="width: 100%;">
+    <div class="container is-max-desktop" style="width: 100%;">
+      <div class="columns is-centered" style="width: 100%;">
+        <div class="column has-text-centered" style="width: 100%;">
+          <h1 class="title is-1 publication-title" style="margin-bottom: 0"><img src="./assets/avatar.png" width="80" class="center"><strong>Beyond Words: Advancing Long-Text Image Generation via Multimodal Autoregressive Models</strong></h1>
+          <!-- <h1 class="title is-2" style="margin-bottom: 0;color: red"><strong>CLIP Score is Innately Flawed !!!</strong></h1> -->
+
+          <div class="column is-full_width" style="width: 100%;">
+          </div>
+          <div class="is-size-5 publication-authors" style="width: 100%;">
+            <span class="author-block">
+              <a href="https://fingerrec.github.io/">Wang, Alex Jinpeng</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=WR875gYAAAAJ&hl=en"> Li, Linjie </a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://zyang-ur.github.io">Yang , Zhengyuan </a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span> 
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=cDcWXuIAAAAJ&hl=zh-CN">Wang, Lijuan  </a><sup>2</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=w47WJE4AAAAJ&hl=zh-CN">Li, Min </a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors" style="width: 100%;">
+            <span class="author-block"><sup>1</sup>Central South University</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>Microsoft</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+
+          <div class="column has-text-centered" style="width: 100%;">
+            <div class="publication-links" style="width: 100%;">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2503.20198"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark disabled">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Github (Coming Soon)</span>
+                  </a>
+              </span>
+
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section" style="width: 100%;">
+  <div class="container is-max-desktop" style="width: 100%;">
+    <!-- Highlights -->
+    <div class="columns is-centered has-text-centered" style="width: 100%;">
+      <div class="column is-four-fifths" style="width: 100%;">
+        <h2 class="title is-3" style="margin-top: -30px">Summary</h2>
+        <div class="content has-text-justified" style="width: 100%;">
+          <ul>
+            <li style="font-size:16px">We present the first model LongTextAR specifically designed for long-text image generation, addressing a significant gap in existing text-to-image methods that typically handle only short sentences.</li>
+            <li style="font-size:16px">We pinpoint weak tokenization as a critical barrier for effective text rendering in existing multimodal autoregressive models, such as Chameleon.</li>
+            <li style="font-size:16px"> offers customizable text rendering with control over font attributes while generalizing to natural image generation through co-training. Our experiments demonstrate its potential for applications like document generation and PowerPoint editing.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- show the word acc comparison figure  -->
+<section class="section" style="width: 100%;">
+  <div class="container is-max-desktop" style="width: 100%;">
+    <div class="columns is-centered" style="width: 100%;">
+      <div class="column is-full-width" style="width: 100%;">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -20px">Word Accuracy Comparison</h2>
+        <div class="columns is-centered" style="width: 100%;">
+          <div class="column is-6" style="width: 100%; display: flex; justify-content: center;">
+            <img src="./assets/word_acc_comparison.png" style="width: 80%; margin: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section" style="width: 100%;">
+  <div class="container is-max-desktop" style="width: 100%">
+
+    <div class="columns is-centered" style="width: 100%;">
+      <div class="column is-full-width" style="width: 100%;">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -20px">Overview</h2>
+
+        <div style="display: flex; justify-content: center;">
+          <img src="./assets/main_ppl.png" style="width: 80%; margin: auto;">
+        </div>
+
+        <h2 class="subtitle" style="margin-top: 15px; font-size: 17px; text-align: center;">
+          <li>    
+            Our trained text-focused tokenizer converts the long-text image into discrete token IDs. A corresponding long-text prompt is generated, and the model is then tasked with predicting the image token IDs based on this long text prompt.
+          </li>
+        </h2>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" style="width: 100%;">
+  <div class="container is-max-desktop" style="width: 100%">
+
+    <div class="columns is-centered" style="width: 100%;">
+      <div class="column is-full-width" style="width: 100%">
+        <h2 class="title is-3 has-text-centered" style="margin-top: -20px">Control over font attributes</h2>
+
+        <div class="columns is-centered" style="display: flex; justify-content: center;">
+          <div class="column is-full-width" style="display: flex; justify-content: center;">
+            <img src="./assets/complex_font.png" style="width: 100%; margin: auto;">
+          </div>
+        </div>
+        
+        <h2 class="subtitle" style="margin-top: 15px; font-size: 17px">
+          <li> LongTextAR have good control over font attributes. (Middle Row is Ground-truth) </li>
+        </h2>
+
+        <div class="columns is-centered" style="display: flex; justify-content: center;">
+          <div class="column is-full-width" style="display: flex; justify-content: center;">
+            <img src="./assets/text_font_variable.png" style="width: 100%; margin: auto;">
+          </div>
+        </div>
+
+        <h2 class="subtitle" style="margin-top: 15px; font-size: 17px">
+          <li> The long-text generation ability is highly improved with LongTextAR. </li>
+        </h2>
+
+      </div>
+    </div>
+
+  </div>
+</section> 
+
+<!-- add a new section for the application -->
+
+<section class="section" style="width: 100%;">
+  <div class="container is-max-desktop" style="width: 100%">
+    <h2 class="title is-3 has-text-centered" style="margin-top: -20px">Applications</h2>
+
+    <div class="columns is-centered" style="width: 100%">
+      <div class="column is-full-width" style="width: 100%">
+        <div style="display: flex; justify-content: center;">
+          <img src="./assets/ppt_application.png" style="width: 45%; margin: 10px;">
+          <img src="./assets/interleaved_generation.png" style="width: 45%; margin: 10px;">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX" style="width: 100%">
+  <div class="container is-max-desktop content" style="width: 100%">
+    <h2 class="title" style="margin-top: -60px">BibTeX</h2>
+    <pre>
+      <code>
+        @article{wang2025beyond,
+          title={Beyond Words: Advancing Long-Text Image Generation via Multimodal Autoregressive Models},
+          author={Wang, Alex Jinpeng and Li, Linjie and Yang, Zhengyuan and Wang, Lijuan and Li, Min},
+          journal={arXiv preprint arXiv:2503.20198},
+          year={2025}
+        }
+
+      </code></pre>
+  </div>
+</section>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td>
+      <br>
+      <p align="center">
+        <font size="2">
+          <a href="https://github.com/nerfies/nerfies.github.io">
+            <font size="2" color="lightgray">awesome webpage template</font>
+          </a>
+          <br>
+        </font>
+      </p>
+      <br>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
